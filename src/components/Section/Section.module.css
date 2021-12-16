@@ -1,0 +1,15 @@
+.container {
+max-width: 540px;
+margin-top: 45px;
+margin-left: 32px;
+}
+
+.container__title {
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+color: #7BF762;
+margin-bottom: 8px;
+}

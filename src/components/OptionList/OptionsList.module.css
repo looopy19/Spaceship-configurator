@@ -1,0 +1,110 @@
+.optionList {
+display: flex;
+}
+
+
+.button {
+width: 160px;
+/* height: 112px; */
+box-sizing: border-box;
+display:flex;
+flex-direction: column;
+align-items: center;
+letter-spacing: 0.1em;
+color: #5A8F4F;
+background: transparent;
+line-height: 10px;
+border: 1px solid #5A8F4F;
+border-radius: 8px;
+padding-top: 16px;
+padding-bottom: 20px;
+margin-right: 32px;
+font-family: Roboto Mono;
+font-size: 12px;
+}
+
+.button:hover,
+.powerButton:hover,
+.packageButton:hover,
+.is-active {
+  color: #7BF762;
+  border-color: #7BF762;
+  filter: drop-shadow(0px 0px 10px #7BF762);
+  cursor: pointer;
+}
+
+.color {
+width: 64px;
+height: 32px;
+border-radius: 8px;
+margin-bottom: 10px;
+}
+
+.price {
+font-size: 12px;
+margin-bottom: 15px;
+
+
+}
+
+.power {
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.colorName {
+font-size: 14px;
+
+}
+
+.powerButton {
+   width: 160px;
+/* height: 112px; */
+box-sizing: border-box;
+display:flex;
+flex-direction: column;
+align-items: center;
+letter-spacing: 0.1em;
+color: #5A8F4F;
+background: transparent;
+line-height: 10px;
+border: 1px solid #5A8F4F;
+border-radius: 8px;
+padding-top: 16px;
+margin-right: 32px;
+font-family: Roboto Mono;
+font-size: 12px;
+}
+
+.packageButton {
+  position: relative;
+}
+
+.packageList {
+  display: flex;
+  flex-direction: column;
+  background: #1C3C16;
+}
+
+.packageButton {
+   width: 160px;
+/* height: 112px; */
+box-sizing: border-box;
+display:flex;
+flex-direction: column;
+align-items: center;
+letter-spacing: 0.1em;
+color: #5A8F4F;
+background: transparent;
+line-height: 10px;
+border: 1px solid #5A8F4F;
+border-radius: 8px;
+padding-top: 16px;
+margin-right: 32px;
+font-family: Roboto Mono;
+font-size: 12px;
+}
+
+.packageSubList {
+  border-radius: 8px;
+}
